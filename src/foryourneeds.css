@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background:linear-gradient(rgb(109, 70, 19, 0.65), rgba(109, 70, 19, 0.65)), url("../src/img/oilbrick.jpg");
+  color: black;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 220px 0px 100px 0px;
+  font-size: 300%;
+}
+
+p {
+  position: relative;
+  left: 180px;
+  bottom: 200px;
+  transform: rotate(335deg);
+  color: red;
+  font-size: 120%;
+}
