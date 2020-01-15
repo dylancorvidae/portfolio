@@ -7,17 +7,45 @@ body {
   margin: 0;
   background-color: black;
   color: whitesmoke;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
   margin: 0px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  background: url('./img/lowhands4.jpg') rgb(0, 0, 0);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-h1 {
+// #headerimg {
+//   position: absolute;
+//   left: 0%;
+//   width: 80%;
+//   height: auto;
+// }
+
+#headerh1 {
   margin: 15vh 0vw 10vh 0vw;
   font-size: 7vh;
   color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#headerh2 {
+  margin: 15vh 0vw 1vh 0vw;
+  font-size: 5vh;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
