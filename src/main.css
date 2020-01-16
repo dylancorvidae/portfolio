@@ -7,43 +7,106 @@ body {
   margin: 0;
   background-color: black;
   color: whitesmoke;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
   margin: 0px;
+  height: 375px;
+  width: 100%;
+  text-align: center;
+  background: url('./img/lowhands4.jpg') rgba(0, 0, 0, 0.438);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-h1 {
-  margin: 15vh 0vw 10vh 0vw;
+#lgbtq {
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
+  width: 100%;
+  height: 20px;
+}
+
+// #headerimg {
+//   position: absolute;
+//   left: 0%;
+//   width: 80%;
+//   height: auto;
+// }
+
+#headerh1 {
+  margin: 28vh 0vw 1vh 0vw;
   font-size: 7vh;
   color: white;
 }
 
+#headerh2 {
+  margin: 2vh 0vw 1vh 0vw;
+  font-size: 5vh;
+  color: white;
+}
+
 h2 {
-  margin: 15vh 0vw 1vh 0vw;
+  margin: 10vh 2vw 1vh 0vw;
   font-size: 5vh;
   color: white;
 }
 
 h3 {
-  margin: 3vh 0vw 1vh 0vw;
+  margin: 3vh 2vw 1vh 0vw;
   font-size: 4vh;
-  color: rgb(170, 0, 0);
+  color: #006EDB;
 }
 
 h4 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 3vh;
-  color: rgb(120, 0, 0);
+  color: #1E90FF;
 }
 
 h5 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 3vh;
-  color: rgb(100, 0, 0);
+  color: #50a8ff;
 }
 
 p {
   margin: 0px;
+}
+
+#techtools{
+  width: 100%;
+}
+
+#techtoolscontent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
+}
+
+#employment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
+}
+
+#education {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
 }
