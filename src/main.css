@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: black;
+  background-color: #2B2B2B;
   color: whitesmoke;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -48,14 +48,14 @@ header {
 }
 
 h2 {
-  margin: 6vh 0vw 3vh 0vw;
+  margin: 4vh 0vw 0vh 0vw;
   font-size: 5vh;
   color: white;
 }
 
 h3 {
-  margin: 3vh 2vw 1vh 0vw;
-  font-size: 4vh;
+  margin: 2vh 0vw 1vh 0vw;
+  font-size: 2vw;
   color: rgb(0, 110, 219);
 }
 
@@ -63,14 +63,14 @@ h4 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 3vh;
   color: #1E90FF;
-  color: rgb(150, 0, 219);
+  color: #BA24FF;
 }
 
 h5 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 2vh;
   color: #50a8ff;
-  color: rgb(219, 0, 183);
+  color: #FF4DE4;
 }
 
 p {
@@ -83,7 +83,8 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 7vh 0 0 0;
 }
 
 #techtools {
@@ -91,31 +92,35 @@ p {
   flex-direction: column;
   align-items: center;
   width: 33%;
-  margin: 0 0 0 10vw;
+  margin: 0 0 0 0vw;
+  background-color: #0A0A0A;
+  border-radius: 10%;
 }
 
 #techtools-content {
   display: flex;
   flex-direction: row;
+  padding: 1vw;
 }
 
-#col2 {
+#col1, #col2, #col3 {
   margin: 0 1vw 0 0;
 }
 
 #education {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   width: 33%;
-  margin: 0 10vw 0 0;
+  margin: 0 0vw 0 0;
+  background-color: #0A0A0A;
+  border-radius: 10%;
 }
 
 #education-content {
-  // display: flex;
-  // flex-direction: column;
-  // width: 33%;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
 }
 
 #projects {
@@ -125,6 +130,8 @@ p {
   justify-content: center;
   width: 100%;
   height: auto;
+  margin: 7vh 0vw 0vh 0vw;
+  
 }
 
 #projects-content {
@@ -134,37 +141,50 @@ p {
 .project-container {
   display: flex;
   flex-direction: row;
-  margin: 2vh 0vw 5vh 0vw;
+  margin: 3vh 0vw 8vh 0vw;
   // height: auto;
   justify-content: space-evenly;
+}
+
+div.project-desc > h3 {
+  margin: 0vh 0vw 0vh 0vw;
 }
 
 .projects {
   width: 50%;
   height: auto;
   object-fit: contain;
+  border-radius: 5%;
 }
 
-#basic-ass-words {
+.project-desc {
   width: 35%;
   height: auto;
+  background-color: #0A0A0A;
+  padding: 1vw;
+  border-radius: 5%;
 }
 
-#bashful-words {
-  width: 35%;
-  height: 400px;
+// #bashful-words {
+//   width: 35%;
+//   height: auto;
+//   background-color: #0A0A0A;
+//   padding: 1vw;
+// }
 
-}
+// #sanchez-words {
+//   width: 35%;
+//   height: auto;
+//   background-color: #0A0A0A;
+//   padding: 1vw;
+// }
 
-#sanchez-words {
-  width: 35%;
-  height: 400px;
-}
-
-#jabba-words {
-  width: 35%;
-  height: 400px;
-}
+// #jabba-words {
+//   width: 35%;
+//   height: auto;
+//   background-color: #0A0A0A;
+//   padding: 1vw;
+// }
 
 #employment {
   display: flex;
@@ -172,7 +192,8 @@ p {
   flex-wrap: wrap;
   width: 50%;
   height: auto;
-  margin: 0 0 10vh 0;
+  margin: 7vh 0 10vh 0;
+  background-color: #0A0A0A;
 }
 
 #lgbtq2 {
