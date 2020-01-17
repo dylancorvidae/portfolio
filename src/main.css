@@ -82,26 +82,33 @@ p {
   height: 500px;
   display: flex;
   flex-direction: row;
-  // justify-content: space-around;
+  justify-content: space-around;
 }
 
 #techtools {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 33%;
+  margin: 0 0 0 10vw;
 }
 
 #techtoolscontent {
   display: flex;
   flex-direction: row;
-  width: 50%;
 }
 
 #education {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 50%;
+  width: 33%;
+  margin: 0 10vw 0 0;
+}
+
+#educationcontent {
+  // display: flex;
+  // flex-direction: column;
+  // width: 33%;
 }
 
 #projects {
