@@ -123,21 +123,39 @@ p {
 
 }
 
-
-
-// #project-container {
-//   display: flex;
-//   flex-direction: row;
-// }
-
-#basic-ass-words {
-  width: 40%;
-  height: 400px;
+.project-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5vh
 }
 
 .projects {
   width: 50%;
-  float: right;
+  // float: right;
+}
+
+#basic-ass-words {
+  width: 40%;
+  height: 400px;
+  margin: 0 0 0 2vw
+}
+
+#bashful-words {
+  width: 40%;
+  height: 400px;
+  margin: 0 0 0 2vw
+}
+
+#sanchez-words {
+  width: 40%;
+  height: 400px;
+  margin: 0 0 0 2vw
+}
+
+#jabba-words {
+  width: 40%;
+  height: 400px;
+  margin: 0 0 0 2vw
 }
 
 #employment {
