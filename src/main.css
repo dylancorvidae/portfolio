@@ -48,7 +48,7 @@ header {
 }
 
 h2 {
-  margin: 6vh 2vw 1vh 0vw;
+  margin: 6vh 0vw 3vh 0vw;
   font-size: 5vh;
   color: white;
 }
@@ -88,6 +88,7 @@ p {
 #techtools {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 33%;
   margin: 0 0 0 10vw;
 }
@@ -100,7 +101,8 @@ p {
 #education {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+
+  align-items: center;
   width: 33%;
   margin: 0 10vw 0 0;
 }
@@ -115,6 +117,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -126,36 +129,39 @@ p {
 .project-container {
   display: flex;
   flex-direction: row;
-  margin: 5vh
+  margin: 2vh 0vw 2vh 0vw;
+  // height: auto;
+  justify-content: space-evenly;
 }
 
 .projects {
   width: 50%;
-  // float: right;
+  height: auto;
+  object-fit: contain;
 }
 
 #basic-ass-words {
-  width: 40%;
-  height: 400px;
-  margin: 0 0 0 2vw
+  width: 30%;
+  height: auto;
+
 }
 
 #bashful-words {
-  width: 40%;
+  width: 30%;
   height: 400px;
-  margin: 0 0 0 2vw
+  
 }
 
 #sanchez-words {
-  width: 40%;
+  width: 30%;
   height: 400px;
-  margin: 0 0 0 2vw
+
 }
 
 #jabba-words {
-  width: 40%;
+  width: 30%;
   height: 400px;
-  margin: 0 0 0 2vw
+
 }
 
 #employment {
