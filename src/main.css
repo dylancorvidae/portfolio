@@ -201,6 +201,8 @@ div.project-desc > h3 {
   height: auto;
   margin: 7vh 0 10vh 0;
   background-color: #0A0A0A;
+  padding: 1vw;
+  border-radius: 3%;
 }
 
 #lgbtq2 {
