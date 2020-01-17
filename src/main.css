@@ -197,7 +197,7 @@ div.project-desc > h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
+  width: 80%;
   height: auto;
   margin: 7vh 0 10vh 0;
   background-color: #0A0A0A;
@@ -210,5 +210,5 @@ div.project-desc > h3 {
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
   width: 100%;
   height: 40px;
-  margin: 5vh 0 0 0;
+  margin: 0vh 0 0 0;
 }
