@@ -77,6 +77,10 @@ p {
   margin: 0px;
 }
 
+main {
+  background: linear-gradient(90deg, rgba(98,98,98,1) 0%, rgba(65,65,65,1) 6%, rgba(91,91,91,1) 13%, rgba(68,68,68,1) 21%, rgba(77,77,77,1) 27%, rgba(60,60,60,1) 34%, rgba(45,45,45,1) 42%, rgba(49,49,49,1) 54%, rgba(34,34,34,1) 66%, rgba(41,41,41,1) 75%, rgba(28,28,28,1) 83%, rgba(19,19,19,1) 91%, rgba(0,0,0,1) 100%);
+}
+
 #tech-edu {
   width: 100%;
   height: auto;
@@ -195,14 +199,22 @@ div.project-desc > h3 {
 
 #employment {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 80%;
-  height: auto;
   margin: 7vh 0 10vh 0;
-  background-color: #0A0A0A;
   padding: 1vw;
   border-radius: 3%;
+}
+
+.jobs {
+  background-color:  #0A0A0A;
+  margin: 5vh;
+  border-radius: 10%;
+  width: 30vw;
+  height: auto;
+  margin: 7vh 0 10vh 0;
+
+  padding: 5vw;
 }
 
 #lgbtq2 {
