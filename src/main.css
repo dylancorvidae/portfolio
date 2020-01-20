@@ -142,13 +142,9 @@ main {
   align-items: center;
   justify-content: center;;
   background-color: #0A0A0A;
-  width: 12vw;
-  height: 8vh;
-  border-radius: 15%;
-}
-
-#projects-content {
-
+  width: 35vw;
+  height: 12vh;
+  border-radius: 50%;
 }
 
 .project-container {
@@ -159,15 +155,15 @@ main {
   justify-content: space-evenly;
 }
 
-div.project-desc > h3 {
-  margin: 0vh 0vw 0vh 0vw;
-}
-
 .projects-img {
   width: 50%;
   height: auto;
   object-fit: contain;
   border-radius: 5%;
+}
+
+div.project-desc > h3 {
+  margin: 0vh 0vw 0vh 0vw;
 }
 
 .project-desc {
@@ -178,37 +174,9 @@ div.project-desc > h3 {
   border-radius: 5%;
 }
 
-// #basicass-words {
-//   width: 35%;
-//   height: auto;
-//   background-color: #0A0A0A;
-//   padding: 1vw;
-// }
-
-// #bashful-words {
-//   width: 35%;
-//   height: auto;
-//   background-color: #0A0A0A;
-//   padding: 1vw;
-// }
-
-// #sanchez-words {
-//   width: 35%;
-//   height: auto;
-//   background-color: #0A0A0A;
-//   padding: 1vw;
-// }
-
-// #jabba-words {
-//   width: 35%;
-//   height: auto;
-//   background-color: #0A0A0A;
-//   padding: 1vw;
-// }
-
 #employment {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
@@ -221,20 +189,42 @@ div.project-desc > h3 {
   align-items: center;
   justify-content: center;;
   background-color: #0A0A0A;
-  width: 28vw;
+  width: 35vw;
   height: 12vh;
   border-radius: 50%;
 }
 
-.jobs-container {
+#employment content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  margin: 3vh 0vw 8vh 0vw;
+  // height: auto;
+  justify-content: space-evenly;
+}
+
+.jobs-img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5%;
+}
+
+
+div.job-desc > h3 {
+  margin: 0vh 0vw 0vh 0vw;
 }
 
 .jobs-desc {
   background-color:  #0A0A0A;
   margin: 5vh;
   border-radius: 5%;
-  width: 30vw;
+  width: 35%;
   height: auto;
   margin: 7vh 0 10vh 0;
   padding: 1vw;
