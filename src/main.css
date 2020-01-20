@@ -17,7 +17,7 @@ header {
   background-repeat: no-repeat;
   text-align: center;
   margin: 0px;
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 #header-h1 {
-  margin: 28vh 0vw 1vh 0vw;
+  margin: 32vh 0vw 1vh 0vw;
   font-size: 7vh;
   color: white;
 }
@@ -175,7 +175,7 @@ div.project-desc > h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 7vh 0 10vh 0;
 }
