@@ -35,13 +35,13 @@ header {
 //   height: auto;
 // }
 
-#headerh1 {
+#header-h1 {
   margin: 28vh 0vw 1vh 0vw;
   font-size: 7vh;
   color: white;
 }
 
-#headerh2 {
+#header-h2 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 5vh;
   color: white;
@@ -135,7 +135,16 @@ main {
   width: 100%;
   height: auto;
   margin: 7vh 0vw 0vh 0vw;
-  
+}
+
+#projects-h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  background-color: #0A0A0A;
+  width: 12vw;
+  height: 8vh;
+  border-radius: 15%;
 }
 
 #projects-content {
@@ -154,7 +163,7 @@ div.project-desc > h3 {
   margin: 0vh 0vw 0vh 0vw;
 }
 
-.projects {
+.projects-img {
   width: 50%;
   height: auto;
   object-fit: contain;
@@ -201,20 +210,41 @@ div.project-desc > h3 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
   margin: 7vh 0 10vh 0;
-  padding: 1vw;
-  border-radius: 3%;
 }
 
-.jobs {
+#employment-h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  background-color: #0A0A0A;
+  width: 28vw;
+  height: 12vh;
+  border-radius: 50%;
+}
+
+.jobs-container {
+
+}
+
+.jobs-desc {
   background-color:  #0A0A0A;
   margin: 5vh;
-  border-radius: 10%;
+  border-radius: 5%;
   width: 30vw;
   height: auto;
   margin: 7vh 0 10vh 0;
+  padding: 1vw;
+}
 
-  padding: 5vw;
+.job-img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5%;
 }
 
 #lgbtq2 {
