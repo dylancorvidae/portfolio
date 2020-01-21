@@ -22,7 +22,7 @@ header {
 }
 
 #lgbtq {
-  background: rgb(255,0,0);
+  background: rgb(0, 110, 219);
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
   width: 100%;
   height: 20px;
@@ -48,31 +48,29 @@ h2 {
 
 h3 {
   margin: 2vh 0vw 1vh 0vw;
-  font-size: 2vw;
+  font-size: 3vh;
   color: rgb(0, 110, 219);
 }
 
 h4 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 3vh;
-  color: #1E90FF;
   color: #BA24FF;
 }
 
 h5 {
   margin: 2vh 0vw 1vh 0vw;
   font-size: 2vh;
-  color: #50a8ff;
   color: #FF4DE4;
 }
 
 p {
   margin: 0px;
+  font-size: 1vw;
 }
 
 main {
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
-  // background-repeat: no-repeat;
   background-size: contain;
   // background: linear-gradient(90deg, rgba(98,98,98,1) 0%, rgba(65,65,65,1) 6%, rgba(91,91,91,1) 13%, rgba(68,68,68,1) 21%, rgba(77,77,77,1) 27%, rgba(60,60,60,1) 34%, rgba(45,45,45,1) 42%, rgba(49,49,49,1) 54%, rgba(34,34,34,1) 66%, rgba(41,41,41,1) 75%, rgba(28,28,28,1) 83%, rgba(19,19,19,1) 91%, rgba(0,0,0,1) 100%);
 }
@@ -93,7 +91,7 @@ main {
   align-items: center;
   width: 33%;
   margin: 0 0 0 0vw;
-  background-color: #0A0A0A;
+  background-color: rgba(10, 10, 10, 0.6);
   border-radius: 10%;
 }
 
@@ -113,8 +111,7 @@ main {
   align-items: center;
   width: 33%;
   margin: 0 0vw 0 0;
-  background-color: #0A0A0A;
-  border-radius: 10%;
+  background-color: rgba(10, 10, 10, 0.6);  border-radius: 10%;
 }
 
 #education-content {
@@ -136,18 +133,17 @@ main {
 #projects-h2 {
   display: flex;
   align-items: center;
-  justify-content: center;;
-  background-color: #0A0A0A;
-  width: 35vw;
-  height: 12vh;
-  border-radius: 50%;
+  justify-content: center;
+  background-color: rgba(10, 10, 10, 0.7);
+  width: 220px;
+  height: 80px;
+  border-radius: 10%;
 }
 
 .project-container {
   display: flex;
   flex-direction: row;
   margin: 3vh 0vw 8vh 0vw;
-  // height: auto;
   justify-content: space-evenly;
 }
 
@@ -165,7 +161,7 @@ div.project-desc > h3 {
 .project-desc {
   width: 35%;
   height: auto;
-  background-color: #0A0A0A;
+  background-color: rgba(10, 10, 10, 0.6);
   padding: 1vw;
   border-radius: 5%;
 }
@@ -183,11 +179,11 @@ div.project-desc > h3 {
 #employment-h2 {
   display: flex;
   align-items: center;
-  justify-content: center;;
-  background-color: #0A0A0A;
-  width: 35vw;
-  height: 12vh;
-  border-radius: 50%;
+  justify-content: center;
+  background-color: rgba(10, 10, 10, 0.6);
+  width: 450px;
+  height: 80px;
+  border-radius: 10%;
 }
 
 #employment content {
@@ -217,18 +213,17 @@ div.job-desc > h3 {
 }
 
 .jobs-desc {
-  background-color:  #0A0A0A;
+  background-color: rgba(10, 10, 10, 0.6);
   margin: 5vh;
   border-radius: 5%;
   width: 35%;
   height: auto;
-  margin: 0vh 0 0vh 0;
+  margin: 0vh 2vw 0vh 2vw;
   padding: 1vw;
 }
 
-
 #lgbtq2 {
-  background: rgb(255,0,0);
+  background: rgb(0, 110, 219);
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
   width: 100%;
   height: 40px;
