@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  margin: 2vh 0vw 1vh 0vw;
+  margin: 10px 0vw 5px 0vw;
   font-size: 3vh;
   color: rgb(0, 110, 219);
 }
@@ -59,14 +59,14 @@ h4 {
 }
 
 h5 {
-  margin: 2vh 0vw 1vh 0vw;
+  margin: 10px 0vw 5px 0vw;
   font-size: 2vh;
   color: #FF4DE4;
 }
 
 p {
   margin: 0px;
-  font-size: 1vw;
+  font-size: 1em;
 }
 
 .shape-outer {
@@ -122,8 +122,9 @@ main {
 #techtools-content {
   display: flex;
   flex-direction: row;
-  padding: 1vw;
   justify-content: space-evenly;
+  margin: 0px 0 0 0;
+  padding: 1vw;
 }
 
 #col1, #col2, #col3 {
@@ -134,14 +135,18 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 33%;
-  margin: 0 0vw 0 0;
   background-color: rgba(10, 10, 10, 0.6);  border-radius: 10%;
+}
+
+#education-h2 {
+  margin-left: 100px;
 }
 
 #education-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 0 0 0;
   padding: 1vw;
 }
 
