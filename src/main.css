@@ -86,10 +86,10 @@ p {
   flex-direction: column;	
   width: 595px;
   height: 440px;
-  background-color: rgba(10, 10, 10);
+  // background-color: rgba(10, 10, 10);
+  background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: auto;
   align-items: center;
-  // justify-content: center;
 }
 
 .bevel {
@@ -208,7 +208,7 @@ main {
 }
 
 .projects-img {
-  width: 780px;
+  width: 650px;
   height: auto;
   object-fit: contain;
   border-radius: 5%;
