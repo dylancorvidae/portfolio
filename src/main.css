@@ -77,7 +77,7 @@ p {
   flex-shrink: 0;
   width: 600px;
   height: 445px;
-  margin: 25px;
+  margin: 20px;
   background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
@@ -177,14 +177,14 @@ main {
 .shape-outer-projects-header {
   display: flex;
   flex-shrink: 0;
-  width: 225px;
+  width: 250px;
   height: 85px;
-  margin: 25px;
+  margin: 25px 0 0px 0;
   background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
-.shape-inner-projects-h2 {	
-  width: 220px;
+.shape-inner-projects-header {	
+  width: 245px;
   height: 80px;
   background-color: rgba(10, 10, 10);
   margin: auto;
@@ -194,9 +194,6 @@ main {
 
 #projects-h2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(10, 10, 10);
 }
 
 .project-container {
@@ -209,9 +206,9 @@ main {
 
 
 .project-desc {
-  width: 500px;
-  height: auto;
-  background-color: rgba(10, 10, 10, 0.6);
+  // width: 500px;
+  // height: auto;
+  // background-color: rgba(10, 10, 10, 0.6);
   padding: 1vw;
 
 }
@@ -249,10 +246,10 @@ div.project-desc > h3 {
 
 #employment {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
+  align-items: center;
+  width: 100%;
   height: auto;
   margin: 7vh 0 10vh 0;
 }
@@ -260,14 +257,14 @@ div.project-desc > h3 {
 .shape-outer-employment-header {
   display: flex;
   flex-shrink: 0;
-  width: 455px;
+  width: 500px;
   height: 85px;
   margin: 25px;
   background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
 .shape-inner-employment-header {	
-  width: 450px;
+  width: 495px;
   height: 80px;
   background-color: rgba(10, 10, 10);
   margin: auto;
@@ -277,6 +274,7 @@ div.project-desc > h3 {
 
 #employment-h2 {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: rgba(10, 10, 10);
@@ -291,13 +289,14 @@ div.project-desc > h3 {
 .jobs-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 3vh 0vw 8vh 0vw;
   // height: auto;
   justify-content: space-evenly;
 }
 
 .job-img {
-  width: 50%;
+  width: 650px;
   height: auto;
   max-height: 600px;
   object-fit: cover;
@@ -309,12 +308,12 @@ div.job-desc > h3 {
 }
 
 .jobs-desc {
-  background-color: rgba(10, 10, 10, 0.6);
-  margin: 5vh;
-  border-radius: 5%;
-  width: 35%;
-  height: auto;
-  margin: 0vh 2vw 0vh 2vw;
+  // background-color: rgba(10, 10, 10, 0.6);
+  // margin: 5vh;
+  // border-radius: 5%;
+  // width: 35%;
+  // height: auto;
+  // margin: 0vh 2vw 0vh 2vw;
   padding: 1vw;
 }
 
