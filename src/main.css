@@ -32,13 +32,13 @@ header {
 }
 
 #header-h1 {
-  margin: 32vh 0vw 1vh 0vw;
+  margin: 265px 0vw 10px 0vw;
   font-size: 7vh;
   color: white;
 }
 
 #header-h2 {
-  margin: 2vh 0vw 1vh 0vw;
+  margin: 15px 0vw 8px 0vw;
   font-size: 5vh;
   color: white;
 }
@@ -201,11 +201,6 @@ main {
   justify-content: space-evenly;
 }
 
-
-.project-desc {
-  padding: 1vw;
-}
-
 .shape-outer-projects {
   display: flex;
   flex-shrink: 0;
@@ -222,6 +217,10 @@ main {
   height: auto;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: 5px;
+}
+
+.project-desc {
+  padding: 2vw;
 }
 
 div.project-desc > h3 {
@@ -243,7 +242,7 @@ div.project-desc > h3 {
   align-items: center;
   width: 100%;
   height: auto;
-  margin: 7vh 0 10vh 0;
+  margin: 1vh 0 10vh 0;
 }
 
 .shape-outer-employment-header {
@@ -251,7 +250,7 @@ div.project-desc > h3 {
   flex-shrink: 0;
   width: 500px;
   height: 85px;
-  margin: 25px;
+  margin: 2vh 0 1vh 0;
   background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
@@ -282,7 +281,7 @@ div.project-desc > h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 3vh 0vw 8vh 0vw;
+  margin: 3vh 0vw 0vh 0vw;
   justify-content: space-evenly;
 }
 
@@ -299,7 +298,7 @@ div.job-desc > h3 {
 }
 
 .jobs-desc {
-  padding: 1vw;
+  padding: 2vw;
 }
 
 #volunteer {
@@ -309,7 +308,7 @@ div.job-desc > h3 {
   align-items: center;
   width: 100%;
   height: auto;
-  margin: 7vh 0 10vh 0;
+  margin: 0vh 0 10vh 0;
 }
 
 #volunteer-container {
@@ -319,7 +318,7 @@ div.job-desc > h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 7vh 0 0 0;
+  margin: 1vh 0 0 0;
 }
 
 .volunteer {
@@ -357,21 +356,18 @@ div.volunteer-content > h4 {
 @media (max-width: 700px) {
 
   #header-h1 {
-    margin: 32vh 0vw 1vh 0vw;
+    margin: 265px 0vw 10px 0vw;
     font-size: 8vw;
-    color: white;
   }
   
   #header-h2 {
-    margin: 2vh 0vw 1vh 0vw;
+    margin: 15px 0vw 8px 0vw;
     font-size: 5.5vw;
-    color: white;
   }
   .shape-outer {
     width: 85vw;
     height: 54vh;
     margin: 2vh 0vw;
-    background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
   }
   
   .shape-inner {
@@ -381,5 +377,27 @@ div.volunteer-content > h4 {
 
   #col1, #col2, #col3 {
     margin: 0 3vw 0 3vw;
+  }
+
+  .shape-outer-projects {
+    width: 85vw;
+    height: auto;
+    margin: 2vh 0vw;
+  }
+  
+  .shape-inner-projects {
+    width: 84vw;
+  }
+
+  .project-desc {
+    padding: 2vw;
+  }
+
+  .projects-img {
+    width: 85vw;
+  }
+
+  .job-img {
+    width: 85vw;
   }
 }
