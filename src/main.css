@@ -32,15 +32,17 @@ header {
 }
 
 #header-h1 {
-  margin: 265px 0vw 10px 0vw;
-  font-size: 7vh;
+  margin: 250px 0vw 10px 0vw;
+  font-size: 7.5vh;
   color: white;
+  text-shadow: -2px 2px 5px rgb(0, 0, 0);
 }
 
 #header-h2 {
   margin: 15px 0vw 8px 0vw;
   font-size: 5vh;
   color: white;
+  text-shadow: -2px 2px 5px rgb(0, 0, 0);
 }
 
 h2 {
@@ -329,7 +331,7 @@ div.job-desc > h3 {
 }
 
 .volunteer-h3 {
-  font-size: 4vh;
+  font-size: 3.8vh;
   margin: 20px 0 7px 0;
 }
 
@@ -399,5 +401,14 @@ div.volunteer-content > h4 {
 
   .job-img {
     width: 85vw;
+  }
+
+  .volunteer-h3 {
+    font-size: 5vw;
+    margin: 20px 0 7px 0;
+  }
+
+  div.volunteer-content > h4 {
+    margin: 3vw 0 1vw 0;
   }
 }
