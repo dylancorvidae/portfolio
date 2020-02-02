@@ -13,6 +13,36 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.onload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  height: 100vw;
+  opacity: 0;
+  animation-name: onLoadBackground;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  z-index: 1;
+}
+
+@keyframes onLoadBackground {
+  from {opacity: 1}
+  to {
+    z-index: 0;
+    opacity: 0;
+    display: none;
+  }
+}
+
+.img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 header {
   background: url('./img/outstretchedhands.jpg') rgba(0, 0, 0, 0.438);
   background-size: cover;
