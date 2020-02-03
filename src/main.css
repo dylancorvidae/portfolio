@@ -312,6 +312,29 @@ div.project-desc > h3 {
   margin: 20px;
 }
 
+.shape-outer-projects-img {
+  display: flex;
+  flex-shrink: 0;
+  width: 600px;
+  height: auto;
+  margin: 20px;
+  background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+}
+
+.shape-inner-projects-img {
+  display: flex;
+  flex-direction: column;	
+  background: url('./img/basicass.jpg') rgba(0, 0, 0, 0.438);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 600px;
+  height: auto;
+  margin: 5px;
+
+}
+
 #employment {
   display: flex;
   flex-direction: column;
