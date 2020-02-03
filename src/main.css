@@ -13,6 +13,36 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.onload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  height: 100vw;
+  opacity: 0;
+  animation-name: onLoadBackground;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  // animation-timing-function: linear;
+  z-index: 1;
+}
+
+@keyframes onLoadBackground {
+  from {opacity: 1}
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+#intro-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 header {
   background: url('./img/outstretchedhands.jpg') rgba(0, 0, 0, 0.438);
   background-size: cover;
@@ -24,25 +54,70 @@ header {
   width: 100%;
 }
 
+#header-h1 {
+  color: white;
+  font-size: 7.5vh;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 250px auto 10px auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-shadow: -2px 2px 5px rgb(0, 0, 0);
+}
+
+/* Animation */
+.typewriter{
+animation: 
+typewriter 3s steps(44) 2s 1 normal both,
+blinkTextCursor 800ms steps(44) infinite normal,
+cursorOff 0s ease-in 6s forwards;
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 442px;}
+}
+
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+@keyframes cursorOff {
+  to {border-right: none;  }
+}
+
+#header-h2 {
+  color: white;
+  font-size: 5vh;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 15px auto 8px auto;
+  text-shadow: -2px 2px 5px rgb(0, 0, 0);
+}
+
+/* Animation */
+.typewriter2 {
+animation: 
+cursorOn 4s steps(1) 6s forwards,
+typewriter2 3.5s steps(44) 6.5s 1 normal both,
+blinkTextCursor 800ms steps(44) infinite normal,
+cursorOff 0s steps(1) 14s;
+}
+
+@keyframes cursorOn {
+  from {border-right: 2px solid rgba(255,255,255,.75);}
+}
+
+@keyframes typewriter2 {
+from{width: 0;}
+to{width: 420px;}
+}
+
 #lgbtq {
   background: rgb(0, 110, 219);
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
   width: 100%;
   height: 20px;
-}
-
-#header-h1 {
-  margin: 250px 0vw 10px 0vw;
-  font-size: 7.5vh;
-  color: white;
-  text-shadow: -2px 2px 5px rgb(0, 0, 0);
-}
-
-#header-h2 {
-  margin: 15px 0vw 8px 0vw;
-  font-size: 5vh;
-  color: white;
-  text-shadow: -2px 2px 5px rgb(0, 0, 0);
 }
 
 h2 {
