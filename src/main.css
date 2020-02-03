@@ -23,21 +23,21 @@ body {
   height: 100vw;
   opacity: 0;
   animation-name: onLoadBackground;
-  animation-duration: 6s;
+  animation-duration: 5s;
   animation-iteration-count: 1;
+  // animation-timing-function: linear;
   z-index: 1;
 }
 
 @keyframes onLoadBackground {
   from {opacity: 1}
   to {
-    z-index: 0;
     opacity: 0;
     display: none;
   }
 }
 
-.img {
+#intro-img {
   height: 400px;
   width: 100%;
   object-fit: cover;
@@ -54,25 +54,82 @@ header {
   width: 100%;
 }
 
-#lgbtq {
-  background: rgb(0, 110, 219);
-  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
-  width: 100%;
-  height: 20px;
-}
-
 #header-h1 {
   margin: 250px 0vw 10px 0vw;
   font-size: 7.5vh;
   color: white;
   text-shadow: -2px 2px 5px rgb(0, 0, 0);
 }
+#header-h1{
+  margin: 250px auto 10px auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);   
+}
+
+/* Animation */
+.typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+            blinkTextCursor 800ms steps(44) infinite normal,
+            cssAnimation 0s ease-in 5s forwards;
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 442px;}
+}
+
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+// @keyframes cssAnimation {
+//   to {border-right: none;  }
+// }
 
 #header-h2 {
   margin: 15px 0vw 8px 0vw;
   font-size: 5vh;
   color: white;
   text-shadow: -2px 2px 5px rgb(0, 0, 0);
+}
+
+#header-h2{
+  margin: 15px auto 8px auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);   
+}
+
+/* Animation */
+.typewriter2 {
+animation: typewriter2 4s steps(44) 5s 1 normal both,
+            blinkTextCursor2 500ms steps(44) infinite normal,
+            cssAnimation2 0s ease-in 5s forwards;
+}
+
+@keyframes typewriter2 {
+from{width: 0;}
+to{width: 420px;}
+}
+
+@keyframes blinkTextCursor2 {
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+@keyframes cssAnimation2 {
+  from {border-right: none;}
+}
+
+#lgbtq {
+  background: rgb(0, 110, 219);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
+  width: 100%;
+  height: 20px;
 }
 
 h2 {
