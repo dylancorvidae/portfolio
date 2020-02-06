@@ -68,7 +68,7 @@ cursorOff 0s ease-in 6s forwards;
 
 @keyframes typewriter{
 from{width: 0;}
-to{width: 442px;}
+to{width: 60vh;}
 }
 
 @keyframes blinkTextCursor{
@@ -104,7 +104,7 @@ cursorOff 0s steps(1) 14s;
 
 @keyframes typewriter2 {
 from{width: 0;}
-to{width: 420px;}
+to{width: 60vh;}
 }
 
 #lgbtq {
