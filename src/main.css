@@ -298,10 +298,33 @@ div.project-desc > h3 {
   margin: 0vh 0vw 0vh 0vw;
 }
 
-a {
+#basic-ass {
+  display: flex;
+}
 
+a {
   z-index: 1;
 } 
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 110, 219);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(72, 163, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #BA24FF;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #FF4DE4;
+}
 
 .projects-img {
   width: 650px;
