@@ -298,6 +298,11 @@ div.project-desc > h3 {
   margin: 0vh 0vw 0vh 0vw;
 }
 
+a {
+
+  z-index: 1;
+} 
+
 .projects-img {
   width: 650px;
   height: auto;
