@@ -14,8 +14,9 @@ body {
 }
 
 .onload {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 0; 
+  right: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -26,14 +27,18 @@ body {
   animation-name: onLoadBackground;
   animation-duration: 5s;
   animation-iteration-count: 1;
-  z-index: 1;
+  z-index: 0;
 }
 
 @keyframes onLoadBackground {
-  from {opacity: 1}
+  from {
+    opacity: 1;
+    z-index: 1;
+  }
   to {
     opacity: 0;
     display: none;
+    z-index: 0;
   }
 }
 
@@ -127,36 +132,36 @@ h3 {
 }
 
 h4 {
-  margin: 2vh 0vw 1vh 0vw;
-  font-size: 2.5vh;
-  color: #BA24FF;
+  margin: 10px 0vw 5px 0vw;
+  font-size: 2.3vh;
+  color: rgb(143, 0, 209);
 }
 
 h5 {
   margin: 10px 0vw 5px 0vw;
-  font-size: 2vh;
-  color: #FF4DE4;
+  font-size: 1.9vh;
+  color: rgb(255, 77, 228);
 }
 
 p {
   margin: 0px;
-  font-size: 1em;
+  font-size: 1.7vh;
 }
 
 .shape-outer {
   display: flex;
   flex-shrink: 0;
   width: 600px;
-  height: 445px;
+  height: 465px;
   margin: 20px;
-  background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner {
   display: flex;
   flex-direction: column;	
   width: 595px;
-  height: 440px;
+  height: 460px;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: auto;
   align-items: center;
@@ -248,7 +253,7 @@ main {
   width: 250px;
   height: 85px;
   margin: 25px 0 0px 0;
-  background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner-projects-header {	
@@ -268,8 +273,9 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 3vh 0vw 8vh 0vw;
+  margin: 3vh 0vw 4vh 0vw;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .shape-outer-projects {
@@ -278,7 +284,7 @@ main {
   width: 600px;
   height: auto;
   margin: 20px;
-  background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner-projects {
@@ -298,17 +304,47 @@ div.project-desc > h3 {
   margin: 0vh 0vw 0vh 0vw;
 }
 
-a {
+#basic-ass {
+  display: inline;
+}
 
-  z-index: 1;
+a.project-link {
+  position: relative;
+  z-index: 2;
+  margin: 10px 5px 0px 5px;
 } 
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 110, 219);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(72, 163, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #BA24FF;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #FF4DE4;
+}
+
+a > img {
+  position: relative;
+  z-index: 1;
+}
 
 .projects-img {
   width: 650px;
   height: auto;
   object-fit: contain;
   border-radius: 5%;
-  margin: 20px;
+  // margin: 20px;
 }
 
 #employment {
@@ -327,7 +363,7 @@ a {
   width: 500px;
   height: 85px;
   margin: 2vh 0 1vh 0;
-  background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner-employment-header {	
