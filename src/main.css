@@ -269,6 +269,10 @@ main {
   display: flex;
 }
 
+#projects-content {
+  width: 100%;
+}
+
 .project-container {
   display: flex;
   flex-direction: row;
@@ -384,9 +388,7 @@ a > img {
 }
 
 #employment content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .jobs-container {
