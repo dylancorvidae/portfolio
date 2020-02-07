@@ -132,20 +132,20 @@ h3 {
 }
 
 h4 {
-  margin: 2vh 0vw 1vh 0vw;
-  font-size: 2.5vh;
-  color: rgb(186, 36, 255);
+  margin: 10px 0vw 5px 0vw;
+  font-size: 2.3vh;
+  color: rgb(143, 0, 209);
 }
 
 h5 {
   margin: 10px 0vw 5px 0vw;
-  font-size: 2vh;
+  font-size: 1.9vh;
   color: rgb(255, 77, 228);
 }
 
 p {
   margin: 0px;
-  font-size: 1em;
+  font-size: 1.7vh;
 }
 
 .shape-outer {
@@ -154,7 +154,7 @@ p {
   width: 600px;
   height: 465px;
   margin: 20px;
-  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(186, 36, 255), rgb(0, 110, 219));
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner {
@@ -253,7 +253,7 @@ main {
   width: 250px;
   height: 85px;
   margin: 25px 0 0px 0;
-  background-image: linear-gradient(to top right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner-projects-header {	
@@ -273,8 +273,9 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 3vh 0vw 8vh 0vw;
+  margin: 3vh 0vw 4vh 0vw;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .shape-outer-projects {
@@ -283,7 +284,7 @@ main {
   width: 600px;
   height: auto;
   margin: 20px;
-  background-image: linear-gradient(to top right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner-projects {
@@ -339,11 +340,11 @@ a > img {
 }
 
 .projects-img {
-  width: 700px;
+  width: 650px;
   height: auto;
   object-fit: contain;
   border-radius: 5%;
-  margin: 20px;
+  // margin: 20px;
 }
 
 #employment {
@@ -362,7 +363,7 @@ a > img {
   width: 500px;
   height: 85px;
   margin: 2vh 0 1vh 0;
-  background-image: linear-gradient(to top right, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
 .shape-inner-employment-header {	
