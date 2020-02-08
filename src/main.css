@@ -537,7 +537,7 @@ div.volunteer-content > h4 {
   }
 
   div.volunteer-content > h4 {
-    margin: 3vw 0 1vw 0;
+    margin: 15px 0 7px 0;
   }
 }
 
@@ -617,7 +617,20 @@ div.volunteer-content > h4 {
     font-size: 0.9em;
   }
 
+  .shape-outer-employment-header {
+    width: 80vw;
+  }
+
   .shape-inner-employment-header {	
     width: calc(80vw - 5px);
+  }
+  
+
+  div.volunteer-content > h4 {
+    margin: 10px 0 7px 0;
+  }
+
+  h4.volunteer-col-header {
+    margin: 20px 0 0 0 !important;
   }
 }
