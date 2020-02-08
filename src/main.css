@@ -55,7 +55,7 @@ header {
 
 #header-h1 {
   color: white;
-  font-size: 7.5vh;
+  font-size: 4.5em;
   overflow: hidden;
   white-space: nowrap;
   margin: 250px auto 10px auto;
@@ -73,7 +73,7 @@ cursorOff 0s ease-in 6s forwards;
 
 @keyframes typewriter{
 from{width: 0;}
-to{width: 60vh;}
+to{width: 550px;}
 }
 
 @keyframes blinkTextCursor{
@@ -87,7 +87,7 @@ to{border-right-color: transparent;}
 
 #header-h2 {
   color: white;
-  font-size: 5vh;
+  font-size: 3em;
   overflow: hidden;
   white-space: nowrap;
   margin: 15px auto 8px auto;
@@ -109,7 +109,7 @@ cursorOff 0s steps(1) 14s;
 
 @keyframes typewriter2 {
 from{width: 0;}
-to{width: 60vh;}
+to{width: 550px;}
 }
 
 #lgbtq {
@@ -467,25 +467,41 @@ div.volunteer-content > h4 {
   margin: 0 0 0 0;
 }
 
-@media (max-width: 700px) {
 
-  #header-h1 {
-    margin: 265px 0vw 10px 0vw;
-    font-size: 8vw;
+@media (max-width: 850px) {
+
+  header {
+    height: 40vw;
   }
   
-  #header-h2 {
-    margin: 15px 0vw 8px 0vw;
-    font-size: 5.5vw;
+  #header-h1 {
+    margin: 20vw auto 10px auto;
+    font-size: 4em;
   }
+
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 500px;}
+    }
+  
+  #header-h2 {
+    margin: 15px auto 8px auto;
+    font-size: 2.5em;
+  }
+
+  @keyframes typewriter2 {
+    from{width: 0;}
+    to{width: 450px;}
+    }
+
   .shape-outer {
-    width: 85vw;
+    width: 80vw;
     height: 54vh;
     margin: 2vh 0vw;
   }
   
   .shape-inner {
-    width: 84vw;
+    width: calc(80vw - 5px);
     height: 53vh;
   }
 
@@ -521,6 +537,100 @@ div.volunteer-content > h4 {
   }
 
   div.volunteer-content > h4 {
-    margin: 3vw 0 1vw 0;
+    margin: 15px 0 7px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  
+  #header-h1 {
+    margin: 20vw auto 10px auto;
+    font-size: 3.5em;
+  }
+  
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 500px;}
+    }
+  
+  #header-h2 {
+    margin: 15px auto 8px auto;
+    font-size: 2em;
+  }
+
+  @keyframes typewriter2 {
+    from{width: 0;}
+    to{width: 450px;}
+    }
+}
+
+
+@media (max-width: 550px) {
+  
+  #header-h1 {
+    margin: 18vw auto 0px auto;
+    font-size: 3em;
+  }
+  
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 350px;}
+    }
+  
+  #header-h2 {
+    margin: 10px auto 0px auto;
+    font-size: 2em;
+  }
+
+  @keyframes typewriter2 {
+    from{width: 0;}
+    to{width: 340px;}
+    }
+
+      
+  h2 {
+    margin: 4vh 0vw 0vh 0vw;
+    font-size: 8vw;
+  }
+
+  h3 {
+    margin: 16px 0vw 5px 0vw;
+    font-size: 5.4vw;
+    color: rgb(0, 110, 219);
+  }
+
+  h4 {
+    margin: 10px 0vw 5px 0vw;
+    font-size: 5vw;
+    color: rgb(143, 0, 209);
+  }
+
+  h5 {
+    margin: 10px 0vw 5px 0vw;
+    font-size: 4.7vw;
+    color: rgb(255, 77, 228);
+  }
+
+  p {
+    margin: 0px;
+    font-size: 0.9em;
+  }
+
+  .shape-outer-employment-header {
+    width: 80vw;
+  }
+
+  .shape-inner-employment-header {	
+    width: calc(80vw - 5px);
+  }
+  
+
+  div.volunteer-content > h4 {
+    margin: 10px 0 7px 0;
+  }
+
+  h4.volunteer-col-header {
+    margin: 20px 0 0 0 !important;
   }
 }
