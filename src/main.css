@@ -496,13 +496,13 @@ div.volunteer-content > h4 {
 
   .shape-outer {
     width: 80vw;
-    height: 54vh;
+    height: 55vh;
     margin: 2vh 0vw;
   }
   
   .shape-inner {
     width: calc(80vw - 5px);
-    height: 53vh;
+    height: calc(55vh - 5px);
   }
 
   #col1, #col2, #col3 {
