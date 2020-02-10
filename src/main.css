@@ -468,6 +468,31 @@ div.volunteer-content > h4 {
 }
 
 
+@media (max-height: 900px) {
+
+  .shape-outer {
+    width: 80vw;
+    // height: 70vh;
+    height:500px;
+    margin: 2vh 0vw;
+  }
+  
+  .shape-inner {
+    width: calc(80vw - 5px);
+    height:495px;
+    // height: calc(70vh - 5px);
+  }
+
+  #education-content, #techtools-content {
+    margin: 15px 0 0 0;
+  }
+
+  .volunteer-content {
+    margin: 10px 0 0 0;
+  }
+}
+
+
 @media (max-width: 850px) {
 
   header {
@@ -496,13 +521,13 @@ div.volunteer-content > h4 {
 
   .shape-outer {
     width: 80vw;
-    height: 55vh;
+    // height: 55vh;
     margin: 2vh 0vw;
   }
   
   .shape-inner {
     width: calc(80vw - 5px);
-    height: calc(55vh - 5px);
+    // height: calc(55vh - 5px);
   }
 
   #col1, #col2, #col3 {
@@ -520,7 +545,7 @@ div.volunteer-content > h4 {
   }
 
   .project-desc {
-    padding: 2vw;
+    padding: 2.5vw;
   }
 
   .projects-img {
