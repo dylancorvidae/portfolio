@@ -285,7 +285,7 @@ main {
 .shape-outer-projects {
   display: flex;
   flex-shrink: 0;
-  width: 600px;
+  width: 80%;
   height: auto;
   margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
@@ -293,8 +293,9 @@ main {
 
 .shape-inner-projects {
   display: flex;
-  flex-direction: column;	
-  width: 595px;
+  flex-direction: row;
+  // flex-wrap: wrap;
+  width: 100%;
   height: auto;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: 5px;
@@ -343,12 +344,22 @@ a > img {
   z-index: 1;
 }
 
+//not working?
+#project-col1 {
+  width: 350px;
+}
+
+#project-col2 {
+  display: flex;
+  align-items: center;
+}
+
 .projects-img {
   width: 650px;
   height: auto;
   object-fit: contain;
   border-radius: 5%;
-  // margin: 20px;
+  margin: 0px 0 0 10px;
 }
 
 #employment {
@@ -397,6 +408,24 @@ a > img {
   flex-wrap: wrap;
   margin: 3vh 0vw 0vh 0vw;
   justify-content: space-evenly;
+}
+
+.shape-outer-employment {
+  display: flex;
+  flex-shrink: 0;
+  width: 600px;
+  height: auto;
+  margin: 20px;
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
+}
+
+.shape-inner-employment {
+  display: flex;
+  flex-direction: column;	
+  width: 595px;
+  height: auto;
+  background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
+  margin: 5px;
 }
 
 .job-img {
