@@ -399,8 +399,8 @@ a > img {
 .shape-outer-mini-app {
   display: flex;
   flex-shrink: 0;
-  width: 600px;
-  height: auto;
+  width: 80%;
+  height: 600px;
   margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
@@ -408,8 +408,9 @@ a > img {
 .shape-inner-mini-app {
   display: flex;
   flex-direction: column;	
-  width: 595px;
-  height: auto;
+  flex-wrap: wrap;
+  width: calc(100% - 5px);
+  height: 590px;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: 5px;
 }
@@ -453,19 +454,19 @@ form > p {
     margin: 20px 0px 0px 20px;  
 }
 
-form > label {
+form label {
   width: 320px;
   font-size: 1.2em;
   margin: 0px 0px 5px 0px;
 }
 
-form > input {
+form input {
   width: 320px;
   border: 1px solid black;
   font-size: 1.2em;
 }
 
-form > select {
+form select {
   width: 320px;
   border: 1px solid black;
   font-size: 1.2em;
@@ -473,18 +474,22 @@ form > select {
 
 #disclaimer {
   width: 320px;
+  height: 220px;
 }
 
 #disclaimer h2 {
   color: red;
+  font-size: 1.4em;
 }
 
 #methodology {
   width: 320px;
+  height: 250px;
 }
 
 #safety-notes {
   width: 320px;
+  height: 250px;
   margin: 0 0 20px 0;
 }
 
