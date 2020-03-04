@@ -682,14 +682,6 @@ div.mini-app-desc > h3 {
   width: auto;
   height: 580px;
   margin: 15px 0 0 0;
-  // -webkit-columns: 3 320px;
-  // -moz-columns: 3 320px;
-  // columns: 3 320px;
-  // -webkit-column-gap: 1em;
-  // -moz-column-gap: 1em;
-  // column-gap: 1em;
-  // -webkit-column-span: all; 
-  // column-span: all; 
 }
 
 form > h1 {
