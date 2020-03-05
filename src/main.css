@@ -270,7 +270,8 @@ main {
 }
 
 #projects-content {
-  width: 100%;
+  width: 90%;
+  margin: 20px 0 0 0;
 }
 
 .project-container {
@@ -287,7 +288,7 @@ main {
   flex-shrink: 0;
   width: 600px;
   height: auto;
-  margin: 20px;
+  // margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
@@ -400,7 +401,7 @@ a > img {
   display: flex;
   flex-shrink: 0;
   width: 80%;
-  height: 560px;
+  height: 580px;
   margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
@@ -409,7 +410,7 @@ a > img {
   display: flex;
   flex-direction: column;	
   width: calc(100% - 5px);
-  height: 550px;
+  height: 570px;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: 5px;
 }
@@ -429,30 +430,16 @@ div.mini-app-desc > h3 {
   width: auto;
   height: 580px;
   margin: 15px 0 0 0;
-  // -webkit-columns: 3 320px;
-  // -moz-columns: 3 320px;
-  // columns: 3 320px;
-  // -webkit-column-gap: 1em;
-  // -moz-column-gap: 1em;
-  // column-gap: 1em;
-  // -webkit-column-span: all; 
-  // column-span: all; 
-}
-
-form > h1 {
-  width: 320px;
-  font-size: 1.5em;
-  margin: 0px;
 }
 
 #disclaimer > h4, #methodology > h4, #safety-notes > h4 {
   font-size: 1.3em;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 5px 0px;
 }
 
 #disclaimer > h5, #methodology > h5, #safety-notes > h5 {
   font-size: 1.1em;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 5px 0px;
 }
 
 #disclaimer > p, #methodology > p, #safety-notes > p {
@@ -470,30 +457,29 @@ form > p {
 }
 
 form label {
-  width: 300px;
+  width: 23vw;
   font-size: 1.2em;
-  margin: 0px 0px 5px 0px;
   margin: 0 10px 0 10px;
 }
 
 form input {
-  width: 300px;
+  width: 23vw;
   border: 1px solid black;
   font-size: 1.2em;
   margin: 0 10px 0 10px;
 }
 
 form select {
-  width: 300px;
+  width: 23vw;
   border: 1px solid black;
   font-size: 1.2em;
   margin: 0 10px 0 10px;
 }
 
 #disclaimer, #methodology, #safety-notes {
-  width: 300px;
+  width: 23vw;
   height: 220px;
-  margin: 0 10px 0 10px;
+  margin: 10px 10px 0 10px;
 }
 
 #disclaimer h4 {
@@ -630,122 +616,93 @@ div.volunteer-content > h4 {
 }
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1120px) {
   
-#mini-app-h2 {
-  display: flex;
-}
-
-#mini-app-content {
-  width: 100%;
-}
-
-.mini-app-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 3vh 0vw 4vh 0vw;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.shape-outer-mini-app {
-  display: flex;
-  flex-shrink: 0;
-  width: 80%;
-  height: 560px;
-  margin: 20px;
-  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
-}
-
-.shape-inner-mini-app {
-  display: flex;
-  flex-direction: column;	
-  width: calc(100% - 5px);
-  height: 550px;
-  background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
-  margin: 5px;
-}
-
-.mini-app-desc {
-  padding: 2vw;
-}
-
-div.mini-app-desc > h3 {
-  align-self: center;
-}
-
-#calculator-div {
-  display: flex;
-  flex-direction: column;	
-  flex-wrap: wrap;
-  width: auto;
-  height: 580px;
-  margin: 15px 0 0 0;
-}
-
-form > h1 {
-  width: 320px;
-  font-size: 1.5em;
-  margin: 0px;
-}
-
-#disclaimer > h4, #methodology > h4, #safety-notes > h4 {
-  font-size: 1.3em;
-  margin: 20px 0px 0px 0px;
-}
-
-#disclaimer > h5, #methodology > h5, #safety-notes > h5 {
-  font-size: 1.1em;
-  margin: 20px 0px 0px 0px;
-}
-
-#disclaimer > p, #methodology > p, #safety-notes > p {
-  display: flex;
-  flex-direction: column;
-  font-size: 1em;
-  margin: 0px 0px 0px 0px;
-}
-
-form > p {
+  .shape-outer-mini-app {
+    display: flex;
+    flex-shrink: 0;
+    width: 80%;
+    height: 70%;
+    margin: 20px;
+    background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
+  }
+  
+  .shape-inner-mini-app {
+    display: flex;
+    flex-direction: column;	
+    width: calc(100% - 5px);
+    height: 70%;
+    background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
+    margin: 5px;
+  }
+  
+  .mini-app-desc {
+    padding: 2vw;
+  }
+  
+  div.mini-ap-desc > h3 {
+    align-self: center;
+  }
+  
+  #calculator-div {
+    display: flex;
+    flex-direction: column;	
+    flex-wrap: wrap;
+    width: auto;
+    height: 600px;
+    margin: 15px 0 0 0;
+  }
+  
+  #disclaimer > h4, #methodology > h4, #safety-notes > h4 {
+    font-size: 1.3em;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  #disclaimer > h5, #methodology > h5, #safety-notes > h5 {
+    font-size: 1.1em;
+    margin: 20px 0px 0px 0px;
+  
+  
+  #disclaimer > p, #methodology > p, #safety-notes > p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    margin: 0px 0px 0px 0px;
+  
+  
+  form > p {
+    width: 40vw;
     display: flex;
     flex-direction: column;
     font-size: 1em;
     margin: 20px 0px 0px 0px;  
-}
-
-form label {
-  width: 300px;
-  font-size: 1.2em;
-  margin: 0px 0px 5px 0px;
-  margin: 0 10px 0 10px;
-}
-
-form input {
-  width: 300px;
-  border: 1px solid black;
-  font-size: 1.2em;
-  margin: 0 10px 0 10px;
-}
-
-form select {
-  width: 300px;
-  border: 1px solid black;
-  font-size: 1.2em;
-  margin: 0 10px 0 10px;
-}
-
-#disclaimer, #methodology, #safety-notes {
-  width: 300px;
-  height: 220px;
-  margin: 0 10px 0 10px;
-}
-
-#disclaimer h4 {
-  color: red;
-  font-size: 1.4em;
-}
-
+  }
+  
+  form label {
+    width: 40vw;
+    font-size: 1.2em;
+    margin: 0 10px 0 10px;
+  }
+  
+  form input {
+    width: 40vw;
+    border: 1px solid black;
+    font-size: 1.2em;
+    margin: 0 10px 0 10px;
+  }
+  
+  form select {
+    width: 40vw;
+    border: 1px solid black;
+    font-size: 1.2em;
+    margin: 0 10px 0 10px;
+  }
+  
+  #disclaimer, #methodology, #safety-notes {
+    width: 40vw;
+    height: auto;
+    margin: 0 10px 0 10px;
+  }
 }
 
 
