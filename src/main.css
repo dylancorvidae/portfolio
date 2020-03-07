@@ -401,7 +401,7 @@ a > img {
   display: flex;
   flex-shrink: 0;
   width: 80%;
-  height: 580px;
+  height: 80%;
   margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
@@ -410,7 +410,7 @@ a > img {
   display: flex;
   flex-direction: column;	
   width: calc(100% - 5px);
-  height: 570px;
+  height: 80%;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: 5px;
 }
@@ -427,26 +427,11 @@ div.mini-app-desc > h3 {
   display: flex;
   flex-direction: column;	
   flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: center;
   width: auto;
   height: 580px;
   margin: 15px 0 0 0;
-}
-
-#disclaimer > h4, #methodology > h4, #safety-notes > h4 {
-  font-size: 1.3em;
-  margin: 20px 0px 5px 0px;
-}
-
-#disclaimer > h5, #methodology > h5, #safety-notes > h5 {
-  font-size: 1.1em;
-  margin: 20px 0px 5px 0px;
-}
-
-#disclaimer > p, #methodology > p, #safety-notes > p {
-  display: flex;
-  flex-direction: column;
-  font-size: 1em;
-  margin: 0px 0px 0px 0px;
 }
 
 form > p {
@@ -476,28 +461,27 @@ form select {
   margin: 0 10px 0 10px;
 }
 
-#disclaimer, #methodology, #safety-notes {
-  width: 23vw;
-  height: 220px;
-  margin: 10px 10px 0 10px;
+#calculator-text {
+  width: 60%;
 }
 
-#disclaimer h4 {
-  color: red;
-  font-size: 1.4em;
+
+#calculator-text > h4 {
+  font-size: 1.3em;
+  margin: 10px 0px 5px 0px;
 }
 
-// #methodology {
-//   width: 320px;
-//   height: 250px;
-// }
+#calculator-text > h5 {
+  font-size: 1.1em;
+  margin: 10px 0px 5px 0px;
+}
 
-// #safety-notes {
-//   width: 320px;
-//   height: 250px;
-//   // padding: 15px;
-//   // margin: 0 0 0px 0;
-// }
+#calculator-text > p {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  margin: 0px 0px 0px 0px;
+}
 
 #employment {
   display: flex;
@@ -616,96 +600,6 @@ div.volunteer-content > h4 {
 }
 
 
-@media (max-width: 1120px) {
-  
-  .shape-outer-mini-app {
-    display: flex;
-    flex-shrink: 0;
-    width: 80%;
-    height: 70%;
-    margin: 20px;
-    background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
-  }
-  
-  .shape-inner-mini-app {
-    display: flex;
-    flex-direction: column;	
-    width: calc(100% - 5px);
-    height: 70%;
-    background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
-    margin: 5px;
-  }
-  
-  .mini-app-desc {
-    padding: 2vw;
-  }
-  
-  div.mini-ap-desc > h3 {
-    align-self: center;
-  }
-  
-  #calculator-div {
-    display: flex;
-    flex-direction: column;	
-    flex-wrap: wrap;
-    width: auto;
-    height: 600px;
-    margin: 15px 0 0 0;
-  }
-  
-  #disclaimer > h4, #methodology > h4, #safety-notes > h4 {
-    font-size: 1.3em;
-    margin: 20px 0px 0px 0px;
-  }
-  
-  #disclaimer > h5, #methodology > h5, #safety-notes > h5 {
-    font-size: 1.1em;
-    margin: 20px 0px 0px 0px;
-  
-  
-  #disclaimer > p, #methodology > p, #safety-notes > p {
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    margin: 0px 0px 0px 0px;
-  
-  
-  form > p {
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    margin: 20px 0px 0px 0px;  
-  }
-  
-  form label {
-    width: 40vw;
-    font-size: 1.2em;
-    margin: 0 10px 0 10px;
-  }
-  
-  form input {
-    width: 40vw;
-    border: 1px solid black;
-    font-size: 1.2em;
-    margin: 0 10px 0 10px;
-  }
-  
-  form select {
-    width: 40vw;
-    border: 1px solid black;
-    font-size: 1.2em;
-    margin: 0 10px 0 10px;
-  }
-  
-  #disclaimer, #methodology, #safety-notes {
-    width: 40vw;
-    height: auto;
-    margin: 0 10px 0 10px;
-  }
-}
-
-
 @media (max-height: 900px) {
 
   .shape-outer {
@@ -789,6 +683,63 @@ div.volunteer-content > h4 {
   .projects-img {
     width: 85vw;
   }
+
+  
+form > p {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  margin: 20px 0px 0px 0px;  
+}
+
+form label {
+width: 70vw;
+font-size: 1.2em;
+margin: 0 10px 0 10px;
+}
+
+form input {
+width: 70vw;
+border: 1px solid black;
+font-size: 1.2em;
+margin: 0 10px 0 10px;
+}
+
+form select {
+width: 70vw;
+border: 1px solid black;
+font-size: 1.2em;
+margin: 0 10px 0 10px;
+}
+
+#calculator-text {
+width: 70vw;
+}
+
+
+#calculator-text > h4 {
+font-size: 1.3em;
+margin: 20px 0px 5px 0px;
+}
+
+#calculator-text > h5 {
+font-size: 1.1em;
+margin: 20px 0px 5px 0px;
+}
+
+#calculator-text > p {
+display: flex;
+flex-direction: column;
+font-size: 1em;
+margin: 0px 0px 0px 0px;
+}
+
+#calculator-div {
+  flex-wrap: none;
+  width: auto;
+  height: auto;
+  margin: 15px 0 0 0;
+}
 
   .job-img {
     width: 85vw;
