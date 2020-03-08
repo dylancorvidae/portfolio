@@ -860,6 +860,13 @@ div.volunteer-content > h4 {
   div.volunteer-content > h4 {
     margin: 0px 0 7px 0;
   }
+
+  .contact-content {
+    margin: 40px 0 0 0;
+  }
+  .contact-img {
+    margin: 20px;
+  }
 }
 
 
@@ -890,4 +897,14 @@ div.volunteer-content > h4 {
     to{width: 290px;}
     }
 
+    .contact-content {
+      width: 300px;
+      margin: 50px 0 0 0;
+    }
+
+    .contact-img {
+      width: 80px;
+      height: 80px;
+      margin: 25px;
+    }
 }
