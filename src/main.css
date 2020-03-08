@@ -596,6 +596,55 @@ div.volunteer-content > h4 {
   margin: 8px 0 5px 0;
 }
 
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0vh 0 10vh 0;
+}
+
+#contact-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1vh 0 0 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-h3 {
+  font-size: 3.8vh;
+  margin: 20px 0 7px 0;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 0 0 0;
+  padding: 1vw;
+}
+
+// div.contact-content > h4 {
+//   margin: 8px 0 5px 0;
+// }
+
+.contact-img {
+  width: 100px;
+  height: 100px;
+}
+
 #lgbtq2 {
   background: rgb(0, 110, 219);
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
