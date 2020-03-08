@@ -188,12 +188,12 @@ main {
 }
 
 #tech-edu {
-  width: 100%;
-  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100%;
+  height: auto;
   margin: 7vh 0 0 0;
 }
 
@@ -270,7 +270,11 @@ main {
 }
 
 #projects-content {
-  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
   margin: 20px 0 0 0;
 }
 
@@ -288,7 +292,7 @@ main {
   flex-shrink: 0;
   width: 600px;
   height: auto;
-  margin: 20px;
+  margin: 20px 20px 20px 0px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
@@ -349,7 +353,6 @@ a > img {
   height: auto;
   object-fit: contain;
   border-radius: 5%;
-  // margin: 20px;
 }
 
 #mini-app {
@@ -416,7 +419,7 @@ a > img {
 }
 
 .mini-app-desc {
-  padding: 2vw;
+  padding: 3vw;
 }
 
 div.mini-app-desc > h3 {
@@ -427,8 +430,8 @@ div.mini-app-desc > h3 {
   display: flex;
   flex-direction: column;	
   flex-wrap: wrap;
-  width: auto;
   justify-content: center;
+  width: auto;
   height: 580px;
   margin: 15px 0 0 0;
 }
@@ -443,21 +446,21 @@ form > p {
 form label {
   width: 23vw;
   font-size: 1.2em;
-  margin: 0 10px 0 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 form input {
   width: 23vw;
   border: 1px solid black;
   font-size: 1.2em;
-  margin: 5px 10px 5px 10px;
+  margin: 5px 0px 5px 0px;
 }
 
 form select {
   width: 23vw;
   border: 1px solid black;
   font-size: 1.2em;
-  margin: 5px 10px 5px 10px;
+  margin: 5px 0px 5px 0px;
 }
 
 #calculator-text {
@@ -606,7 +609,6 @@ div.volunteer-content > h4 {
 
   .shape-outer {
     width: 600px;
-    // height: 70vh;
     height:500px;
     margin: 2vh 0vw;
   }
@@ -614,7 +616,6 @@ div.volunteer-content > h4 {
   .shape-inner {
     width: 595px;
     height:495px;
-    // height: calc(70vh - 5px);
   }
 
   #education-content, #techtools-content {
@@ -655,13 +656,11 @@ div.volunteer-content > h4 {
 
   .shape-outer {
     width: 80vw;
-    // height: 55vh;
     margin: 2vh 0vw;
   }
   
   .shape-inner {
     width: calc(80vw - 5px);
-    // height: calc(55vh - 5px);
   }
 
   #col1, #col2, #col3 {
@@ -686,81 +685,22 @@ div.volunteer-content > h4 {
     width: 85vw;
   }
 
-  
-.shape-outer-mini-app {
-  display: flex;
-  flex-shrink: 0;
-  width: 80vw;
-  height: auto;
-  margin: 20px;
-  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
-}
+  .shape-outer-mini-app {
+    height: auto;
+  }
 
-.shape-inner-mini-app {
-  display: flex;
-  flex-direction: column;	
-  width: calc(80vw - 5px);
-  height: auto;
-  background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
-  margin: 5px;
-}
-  
-form > p {
-  display: flex;
-  flex-direction: column;
-  font-size: 1em;
-  margin: 20px 0px 0px 0px;  
-}
+  .shape-inner-mini-app {
+    height: auto;
+  }
 
-form label {
-width: 70vw;
-font-size: 1.2em;
-margin: 0 10px 0 10px;
-}
+  #calculator-div {
+    flex-wrap: none;
+    height: auto;
+  }
 
-form input {
-width: 70vw;
-border: 1px solid black;
-font-size: 1.2em;
-margin: 0 10px 0 10px;
-}
-
-form select {
-width: 70vw;
-border: 1px solid black;
-font-size: 1.2em;
-margin: 0 10px 0 10px;
-}
-
-#calculator-text {
-width: 70vw;
-padding: 1vw;
-}
-
-
-#calculator-text > h4 {
-font-size: 1.3em;
-margin: 20px 0px 5px 0px;
-}
-
-#calculator-text > h5 {
-font-size: 1.1em;
-margin: 20px 0px 5px 0px;
-}
-
-#calculator-text > p {
-display: flex;
-flex-direction: column;
-font-size: 1em;
-margin: 0px 0px 0px 0px;
-}
-
-#calculator-div {
-  flex-wrap: none;
-  width: auto;
-  height: auto;
-  margin: 15px 0 0 0;
-}
+  form label, form input, form select, #calculator-text {
+  width: 70vw;
+  }
 
   .job-img {
     width: 85vw;
@@ -768,7 +708,6 @@ margin: 0px 0px 0px 0px;
 
   .volunteer-h3 {
     font-size: 4.7vw;
-    margin: 20px 0 7px 0;
   }
 
   div.volunteer-content > h4 {
