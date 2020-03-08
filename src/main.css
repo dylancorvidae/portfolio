@@ -630,9 +630,12 @@ div.volunteer-content > h4 {
 
 .contact-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // align-items: center;
   justify-content: space-evenly;
-  margin: 0px 0 0 0;
+  width: 400px;
+  margin: 20px 0 0 0;
   padding: 1vw;
 }
 
@@ -643,6 +646,7 @@ div.volunteer-content > h4 {
 .contact-img {
   width: 100px;
   height: 100px;
+  margin: 30px;
 }
 
 #lgbtq2 {
