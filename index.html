@@ -11,7 +11,7 @@
   <title>Dylan Corvidae</title>
 </head>
 <body>
-  <div class="onload"></div>
+  <!-- <div class="onload"></div> -->
 
   <header>
     <h1 class="typewriter" id="header-h1">DYLAN CORVIDAE</h1>
@@ -194,6 +194,95 @@
           </a>
         </div>
 
+    </div>
+  </div>
+
+  <div id="mini-app">
+    
+    <div class="shape-outer-mini-app-header bevel">
+      <h2 id="mini-app-h2" class="shape-inner-mini-app-header bevel">Mini-Apps</h2>
+    </div>
+
+    <div id="mini-app-content">
+
+      <div class="mini-app-container">
+        <div class="shape-outer-mini-app bevel2">
+          <div class="mini-app-desc shape-inner-mini-app bevel2">
+            
+            <h3>Characteristic Load Estimator for Aerial Acrobatics Rigging Equipment</h3>
+            <div id="calculator-div">
+              <form id="load-calculator">
+                <p>
+                  <label for="performer-mass">Enter Weight(lbs) of Performer(s) </label>
+                  <input id="performer-mass" required name="performer-mass" type="number" min="0">
+                </p>
+                <p>
+                  <label for="apparatus-mass">Enter Weight(lbs) of Apparatus & Rigging Equipment</label>
+                  <input id="apparatus-mass" required name="apparatus-mass" type="number" min="0">
+                </p>
+                <p>
+                  <label for="dynamic-factor">Choose An Apparatus (Dynamic Adjustment Factor)</label>
+                  <select id="dynamic-factor" required name="dynamic-factor" type="number">
+                    <option value="1.25" type="number">Aerial Yoga (1.25)</option>
+                    <option value="1.25" type="number">Simple Ascensions (1.25, Slow Rise Into Air)</option>
+                    <option value="2" type="number">Theatrical Performances (2, Stage Flying a la Peter Pan)</option>
+                    <option value="2" type="number">Bungee (2)</option>
+                    <option value="3" type="number">Lyra (3)</option>
+                    <option value="3" type="number">Silks (3)</option>
+                    <option value="3" type="number">Static & Dance Trapeze (3)</option>
+                    <option value="5" type="number">Rope (5)</option>
+                    <option value="5" type="number">Straps (5)</option>
+                  </select>
+                </p>
+                <p>
+                  <input type="button" id="calculate" value="Calculate">
+                </p>
+                <p>
+                  <label for="result">Estimated Characteristic Load In Pounds-Force (lbf)</label>
+                  <input for="load-calculator" id="result">
+                </p>
+                <p>
+                  <label for="conversion">Converted to Kilonewton (kN)</label>
+                  <input id="conversion">
+                </p>
+              </form>
+
+              <div id="calculator-text">
+              <!-- <div id="disclaimer"> -->
+                <h4 id="disclaimer">Disclaimer:</h4>
+                <p>
+                  This is just an estimate of possible dynamic loads in a rigging system that travels straight down from an anchor point. This does not take into account orbital motion which puts different strains on rigging equipment. For a more accurate estimate use a load cell sensor while running your act to determine your actual dynamic loads. Take the peak load from running your act using the load cell sensor and multiply by 6 to get your characteristic load.
+                </p>
+              <!-- </div> -->
+
+              <!-- <div id="methodology"> -->
+                <h4>Methodology:</h4>
+                <p>
+                  (Weight of performers + weight of apparatus & rigging equipment) × dynamic adjustment factor × safety factor of 6 (from ANSI 1.43 2016 Entertainment Technology — Performer Flying Systems Subsection 4.6.5). 
+                </p>
+                  <h5>Example:</h5>
+                <p>
+                  (440lbs performers + 10lbs trapeze) × 3 (dynamic adjustment factor) × 6 (ANSI safety factor) = 8100lbs. max safety trapeze performers
+                </p>
+              <!-- </div> -->
+
+              <!-- <div id="safety-notes"> -->
+                <h4>Safety Notes:</h4>
+                <p>
+                  Many times the weakest point in an aerial rigging system is the anchor point. Carefully examine your anchor point and trace the forces from the point of attachment to the main support structure down to the ground. Get assistance from a professional rigger or structural engineer if necessary. When in doubt of the structural integrity of the anchor point, Do Not Perform.
+                </p>
+                <h5>Acknowledgement for Dynamic Adjustment Factor:</h5>
+                <p>
+                  Dynamic adjustment factor estimates provided by Bill Auld of Auld Entertainment, provider of professional rigging and rigging training. Bill started me out on my journey of rigging discovery and is a great human to learn the basics from. If you want to learn more about rigging I highly recommend one of his workshops.
+                </p>
+              <!-- </div> -->
+
+            </div>
+              <script type="module" src="src/loadCalculator.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
