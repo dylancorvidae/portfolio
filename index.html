@@ -440,28 +440,28 @@
           <div class="shape-inner rabbet">
             <h3 class="contact-h3">Get In Touch</h3>
             <div class="contact-content">
-              <form>
-                <p>
-                  <label>
-                    
-                  </label>
-                  <input>
-                </p>
-                <p>
-                  <label>
-
-                  </label>
-                  <input>
-                </p>
-                <p>
-                  <label>
-
-                  </label>
-                  <textarea>
-
+              <form id="contact-form" name="websiteForm" method="POST">
+              <input type="hidden" name="form-name" value="websiteForm" action="/success" />
+              <p>
+                <label>
+                  <input class="contact-inputs" type="text" name="name" placeholder="NAME" required/>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input class="contact-inputs" type="email" name="email" placeholder="EMAIL" required/>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <textarea id="message" name="message" placeholder="MESSAGE" required>
                   </textarea>
-                </p>
-              </form>
+                </label>
+              </p>
+              <p>
+                <button type="submit">SEND</button>
+              </p>
+            </form>
             </div>
           </div>
         </div>
