@@ -288,7 +288,7 @@ main {
   flex-shrink: 0;
   width: 600px;
   height: auto;
-  // margin: 20px;
+  margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
 
@@ -400,8 +400,8 @@ a > img {
 .shape-outer-mini-app {
   display: flex;
   flex-shrink: 0;
-  width: 80%;
-  height: 80%;
+  width: 80vw;
+  height: 740px;
   margin: 20px;
   background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
 }
@@ -409,8 +409,8 @@ a > img {
 .shape-inner-mini-app {
   display: flex;
   flex-direction: column;	
-  width: calc(100% - 5px);
-  height: 80%;
+  width: calc(80vw - 5px);
+  height: 730px;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
   margin: 5px;
 }
@@ -427,9 +427,8 @@ div.mini-app-desc > h3 {
   display: flex;
   flex-direction: column;	
   flex-wrap: wrap;
-  align-items: space-around;
-  justify-content: center;
   width: auto;
+  justify-content: center;
   height: 580px;
   margin: 15px 0 0 0;
 }
@@ -451,20 +450,23 @@ form input {
   width: 23vw;
   border: 1px solid black;
   font-size: 1.2em;
-  margin: 0 10px 0 10px;
+  margin: 5px 10px 5px 10px;
 }
 
 form select {
   width: 23vw;
   border: 1px solid black;
   font-size: 1.2em;
-  margin: 0 10px 0 10px;
+  margin: 5px 10px 5px 10px;
 }
 
 #calculator-text {
   width: 60%;
 }
 
+#disclaimer {
+  color: red;
+}
 
 #calculator-text > h4 {
   font-size: 1.3em;
@@ -685,6 +687,24 @@ div.volunteer-content > h4 {
   }
 
   
+.shape-outer-mini-app {
+  display: flex;
+  flex-shrink: 0;
+  width: 80vw;
+  height: auto;
+  margin: 20px;
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
+}
+
+.shape-inner-mini-app {
+  display: flex;
+  flex-direction: column;	
+  width: calc(80vw - 5px);
+  height: auto;
+  background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
+  margin: 5px;
+}
+  
 form > p {
   display: flex;
   flex-direction: column;
@@ -714,6 +734,7 @@ margin: 0 10px 0 10px;
 
 #calculator-text {
 width: 70vw;
+padding: 1vw;
 }
 
 
