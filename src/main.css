@@ -353,7 +353,6 @@ a > img {
   height: auto;
   object-fit: contain;
   border-radius: 5%;
-  // margin: 20px;
 }
 
 #mini-app {
@@ -610,7 +609,6 @@ div.volunteer-content > h4 {
 
   .shape-outer {
     width: 600px;
-    // height: 70vh;
     height:500px;
     margin: 2vh 0vw;
   }
@@ -618,7 +616,6 @@ div.volunteer-content > h4 {
   .shape-inner {
     width: 595px;
     height:495px;
-    // height: calc(70vh - 5px);
   }
 
   #education-content, #techtools-content {
@@ -659,13 +656,11 @@ div.volunteer-content > h4 {
 
   .shape-outer {
     width: 80vw;
-    // height: 55vh;
     margin: 2vh 0vw;
   }
   
   .shape-inner {
     width: calc(80vw - 5px);
-    // height: calc(55vh - 5px);
   }
 
   #col1, #col2, #col3 {
@@ -690,35 +685,22 @@ div.volunteer-content > h4 {
     width: 85vw;
   }
 
-  
-.shape-outer-mini-app {
-  height: auto;
-}
+  .shape-outer-mini-app {
+    height: auto;
+  }
 
-.shape-inner-mini-app {
-  height: auto;
-}
+  .shape-inner-mini-app {
+    height: auto;
+  }
 
-#calculator-div {
-  flex-wrap: none;
-  height: auto;
-}
+  #calculator-div {
+    flex-wrap: none;
+    height: auto;
+  }
 
-form label {
-width: 70vw;
-}
-
-form input {
-width: 70vw;
-}
-
-form select {
-width: 70vw;
-}
-
-#calculator-text {
-width: 70vw;
-}
+  form label, form input, form select, #calculator-text {
+  width: 70vw;
+  }
 
   .job-img {
     width: 85vw;
@@ -726,7 +708,6 @@ width: 70vw;
 
   .volunteer-h3 {
     font-size: 4.7vw;
-    margin: 20px 0 7px 0;
   }
 
   div.volunteer-content > h4 {
