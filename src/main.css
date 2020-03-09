@@ -761,11 +761,15 @@ div.volunteer-content > h4 {
   }
 
   .volunteer-h3 {
-    font-size: 4.7vw;
+    font-size: 5vw;
   }
 
   div.volunteer-content > h4 {
     margin: 15px 0 7px 0;
+  }
+
+  .contact-h3 {
+    font-size: 4.7vw;
   }
 }
 
@@ -791,6 +795,10 @@ div.volunteer-content > h4 {
     from{width: 0;}
     to{width: 450px;}
     }
+
+  .contact-h3 {
+    font-size: 6vw;
+  }
 }
 
 
