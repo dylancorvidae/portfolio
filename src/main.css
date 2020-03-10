@@ -437,20 +437,20 @@ div.mini-app-desc > h3 {
   margin: 15px 0 0 0;
 }
 
-form > p {
+#calculator-div p {
     display: flex;
     flex-direction: column;
     font-size: 1em;
     margin: 20px 0px 0px 0px;  
 }
 
-form label {
+#calculator-div label {
   width: 23vw;
   font-size: 1.2em;
   margin: 0px 0px 0px 0px;
 }
 
-form input {
+#calculator-div input {
   width: 23vw;
   color: whitesmoke;
   background-color: rgba(0, 0, 0, 0.5);
@@ -459,7 +459,7 @@ form input {
   margin: 5px 0px 5px 0px;
 }
 
-form select {
+#calculator-div select {
   width: 23vw;
   color: whitesmoke;
   background-color: rgba(0, 0, 0, 0.5);
@@ -663,6 +663,24 @@ div.volunteer-content > h4 {
   border-radius: 15%;
 }
 
+#contact-form {
+  margin: 10px 0 0 0;
+}
+
+#contact-form input, #contact-form textarea, #contact-form button {
+  width: 400px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(245, 245, 245, 0.5);
+  font-size: 1.2em;
+  margin: 5px 0px 5px 0px;
+}
+
+textarea {
+  height: 150px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 #lgbtq2 {
   background: rgb(0, 110, 219);
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
@@ -765,7 +783,7 @@ div.volunteer-content > h4 {
     height: auto;
   }
 
-  form label, form input, form select, #calculator-text {
+  #calculator-div label, #calculator-div input, #calculator-div select, #calculator-text {
   width: 70vw;
   }
 
@@ -783,6 +801,10 @@ div.volunteer-content > h4 {
 
   .contact-h3 {
     font-size: 4.7vw;
+  }
+
+  #contact-form input, #contact-form textarea, #contact-form button {
+    width: 55vw;
   }
 }
 
