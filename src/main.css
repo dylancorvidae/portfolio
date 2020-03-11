@@ -347,18 +347,35 @@ a > img {
   z-index: 1;
 }
 
+.shape-outer-imgs {
+  display: flex;
+  flex-shrink: 0;
+  width: 650px;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
+}
+
 .projects-img {
   display: flex;
   flex-direction: column;	
-  
-  width: 595px;
-  height: 366px;
+  width: 650px;
+  height: 370px;
   margin: 5px;
   cursor: pointer;
 }
 
 #basicass-img {
-  background: url('./img/basicass.jpg') rgba(0, 0, 0) center;
+  background: url('./img/basicass.jpg') rgba(0, 0, 0) no-repeat center;
+}
+
+#bashful-img {
+  background: url('./img/bashful.png') rgba(0, 0, 0) no-repeat center;
+  height: 275px;
+}
+
+#sanchez-img {
+  background: url('./img/sanchezpersonalityexperiment.jpg') rgba(0, 0, 0) no-repeat center;
 }
 
 #mini-app {
