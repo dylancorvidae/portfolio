@@ -360,7 +360,7 @@ a > img {
   display: flex;
   flex-direction: column;	
   width: 650px;
-  height: 370px;
+  height: 366px;
   margin: 5px;
   cursor: pointer;
 }
@@ -376,6 +376,10 @@ a > img {
 
 #sanchez-img {
   background: url('./img/sanchezpersonalityexperiment.jpg') rgba(0, 0, 0) no-repeat center;
+}
+
+#jabba-img {
+  background: url('./img/jabbadice.jpg') rgba(0, 0, 0) no-repeat center;
 }
 
 #mini-app {
