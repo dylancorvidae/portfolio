@@ -349,11 +349,12 @@ a > img {
 }
 
 //not working?
-#project-col1 {
+.project-col1 {
   width: 350px;
+  margin: 0 20px 0 0;
 }
 
-#project-col2 {
+.project-col2 {
   display: flex;
   align-items: center;
 }
@@ -715,6 +716,35 @@ textarea {
 }
 
 
+@media (max-width: 1150px) {
+  
+  .shape-outer-projects {
+    width: 85vw;
+    height: auto;
+    margin: 2vh 0vw;
+  }
+  
+  .shape-inner-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84vw;
+  }
+
+  .project-desc {
+    padding: 2.5vw;
+  }
+
+  .project-col1 {
+    margin: 0px 0px 20px 0;
+  }
+
+  .projects-img {
+    width: 80vw;
+  }
+}
+
+
 @media (max-height: 900px) {
 
   .shape-outer {
@@ -784,6 +814,9 @@ textarea {
   }
   
   .shape-inner-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 84vw;
   }
 
@@ -791,8 +824,12 @@ textarea {
     padding: 2.5vw;
   }
 
+  .project-col1 {
+    margin: 0px 0px 20px 0;
+  }
+
   .projects-img {
-    width: 85vw;
+    width: 80vw;
   }
 
   .shape-outer-mini-app {
