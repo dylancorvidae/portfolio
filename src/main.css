@@ -778,20 +778,32 @@ textarea {
 
   .shape-outer-projects {
     width: 85vw;
-    height: auto;
     margin: 2vh 0vw;
   }
   
   .shape-inner-projects {
-    width: 84vw;
+    width: 85vw;
   }
 
   .project-desc {
     padding: 2.5vw;
   }
 
+  .shape-outer-imgs {
+    width: 78vw;
+  }
+
   .projects-img {
-    width: 85vw;
+    width: 78vw;
+    height: 43vw;
+  }
+
+  #basicass-img, #bashful-img, #sanchez-img, #jabba-img {
+  background-size: contain;
+}
+
+#bashful-img {
+  height: 34vw;
   }
 
   .shape-outer-mini-app {
