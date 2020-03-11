@@ -570,8 +570,37 @@ div.mini-app-desc > h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 3vh 0vw 0vh 0vw;
   justify-content: space-evenly;
+  align-items: center;
+  margin: 3vh 0vw 4vh 0vw;
+}
+
+.shape-outer-imgs {
+  display: flex;
+  flex-shrink: 0;
+  background-image: linear-gradient(to bottom right, rgb(255, 77, 228), rgb(143, 0, 209), rgb(0, 110, 219));
+  width: 650px;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+}
+
+.jobs-img {
+  display: flex;
+  flex-direction: column;	
+  width: 650px;
+  height: 366px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#city-img {
+  background: url('./img/citycouncil.jpg') rgba(0, 0, 0) no-repeat center;
+  background-size: cover;
+}
+
+#fitness-img {
+  background: url('./img/humanscale.jpg') rgba(0, 0, 0) no-repeat center;
+  background-size: cover;
 }
 
 .job-img {
@@ -632,7 +661,6 @@ div.job-desc > h3 {
 div.volunteer-content > h4 {
   margin: 8px 0 5px 0;
 }
-
 
 #contact {
   display: flex;
@@ -790,20 +818,20 @@ textarea {
   }
 
   .shape-outer-imgs {
-    width: 78vw;
+    width: 85vw;
   }
 
   .projects-img {
-    width: 78vw;
-    height: 43vw;
+    width: 85vw;
+    height: 47vw;
   }
 
   #basicass-img, #bashful-img, #sanchez-img, #jabba-img {
   background-size: contain;
-}
+  }
 
-#bashful-img {
-  height: 34vw;
+  #bashful-img {
+  height: 37vw;
   }
 
   .shape-outer-mini-app {
@@ -823,8 +851,9 @@ textarea {
   width: 70vw;
   }
 
-  .job-img {
+  .jobs-img {
     width: 85vw;
+    height: 47vw;
   }
 
   .volunteer-h3 {
