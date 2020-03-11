@@ -416,6 +416,7 @@ a > img {
   width: calc(80vw - 5px);
   height: 730px;
   background: url('./img/background.jpg') rgba(0, 0, 0, 0.438);
+  background-size: cover;
   margin: 5px;
 }
 
