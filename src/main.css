@@ -912,23 +912,14 @@ textarea {
     to{width: 450px;}
     }
 
-  #col1, {
-    margin: 0 3vw 0 3vw;
-  }
-
   #col2 {
     margin: 0 0 0 0;
-  }
-
-  #col3 {
-    margin: 0 3vw 0 3vw;
   }
 
   .contact-h3 {
     font-size: 6vw;
   }
 }
-
 
 @media (max-width: 550px) {
   
