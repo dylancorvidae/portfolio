@@ -606,7 +606,6 @@ div.mini-app-desc > h3 {
   width: 650px;
   height: 366px;
   margin: 5px;
-  cursor: pointer;
 }
 
 #city-img {
@@ -617,6 +616,7 @@ div.mini-app-desc > h3 {
 #fitness-img {
   background: url('./img/humanscale.jpg') rgba(0, 0, 0) no-repeat center;
   background-size: cover;
+  cursor: pointer;
 }
 
 .job-img {
