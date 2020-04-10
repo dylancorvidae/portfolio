@@ -200,7 +200,8 @@ p {
 
 main {
   background: url('./img/background.jpg') rgb(10, 10, 10);
-  background-size: contain;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #tech-edu {
