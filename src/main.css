@@ -47,13 +47,16 @@ body {
 }
 
 @keyframes onLoadBackground {
-  from {
+  0% {
     opacity: 1;
-    z-index: 1;
+    z-index: 2;
   }
-  to {
+  99% {
     opacity: 0;
     display: none;
+    z-index: 2;
+  }
+  100% {
     z-index: 0;
   }
 }
@@ -129,10 +132,13 @@ to{width: 550px;}
 }
 
 #lgbtq {
+  position: sticky;
+  top: 0;
   background: rgb(0, 110, 219);
   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,131,0,1) 14.29%, rgba(255,248,0,1) 28.57%, rgba(74,244,65,1) 42.86%, rgba(86,240,249,1) 57.14%, rgba(0,134,255,1) 71.43%, rgba(94,40,255,1) 85.71%, rgba(255,0,249,1) 100%);
   width: 100%;
   height: 20px;
+  z-index: 1;
 }
 
 h2 {
@@ -200,7 +206,8 @@ p {
 
 main {
   background: url('./img/background.jpg') rgb(10, 10, 10);
-  background-size: contain;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #tech-edu {
@@ -334,7 +341,7 @@ div.project-desc > h3 {
 
 a.project-link {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   margin: 10px 5px 0px 5px;
 } 
 
