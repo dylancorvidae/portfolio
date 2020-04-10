@@ -273,7 +273,7 @@ main {
 .shape-inner-projects-header {	
   width: 245px;
   height: 75px;
-  background-color: rgba(10, 10, 10);
+  background-color: rgb(10, 10, 10);
   margin: 5px;
   align-items: center;
   justify-content: center;
@@ -316,7 +316,7 @@ main {
   flex-direction: column;	
   width: 595px;
   height: auto;
-  background: url('./img/background.jpg') rgba(0, 0, 0);
+  background: url('./img/background.jpg') rgb(0, 0, 0);
   margin: 5px;
 }
 
@@ -382,20 +382,20 @@ a > img {
 }
 
 #basicass-img {
-  background: url('./img/basicass.jpg') rgba(0, 0, 0) no-repeat center;
+  background: url('./img/basicass.jpg') rgb(0, 0, 0) no-repeat center;
 }
 
 #bashful-img {
-  background: url('./img/bash.png') rgba(0, 0, 0) no-repeat center;
+  background: url('./img/bash.png') rgb(0, 0, 0) no-repeat center;
   height: 275px;
 }
 
 #sanchez-img {
-  background: url('./img/sanchezpersonalityexperiment.jpg') rgba(0, 0, 0) no-repeat center;
+  background: url('./img/sanchezpersonalityexperiment.jpg') rgb(0, 0, 0) no-repeat center;
 }
 
 #jabba-img {
-  background: url('./img/jabbadice.jpg') rgba(0, 0, 0) no-repeat center;
+  background: url('./img/jabbadice.jpg') rgb(0, 0, 0) no-repeat center;
 }
 
 #mini-app {
@@ -420,7 +420,7 @@ a > img {
 .shape-inner-mini-app-header {	
   width: 245px;
   height: 75px;
-  background-color: rgba(10, 10, 10);
+  background-color: rgb(10, 10, 10);
   margin: 5px;
   align-items: center;
   justify-content: center;
@@ -457,7 +457,7 @@ a > img {
   flex-direction: column;	
   width: calc(80vw - 5px);
   height: 730px;
-  background: url('./img/background.jpg') rgba(0, 0, 0);
+  background: url('./img/background.jpg') rgb(0, 0, 0);
   margin: 5px;
 }
 
@@ -565,7 +565,7 @@ div.mini-app-desc > h3 {
 .shape-inner-employment-header {	
   width: 495px;
   height: 75px;
-  background-color: rgba(10, 10, 10);
+  background-color: rgb(10, 10, 10);
   margin: 5px;
   align-items: center;
   justify-content: center;
@@ -609,12 +609,12 @@ div.mini-app-desc > h3 {
 }
 
 #city-img {
-  background: url('./img/citycouncil.jpg') rgba(0, 0, 0) no-repeat center;
+  background: url('./img/citycouncil.jpg') rgb(0, 0, 0) no-repeat center;
   background-size: cover;
 }
 
 #fitness-img {
-  background: url('./img/humanscale.jpg') rgba(0, 0, 0) no-repeat center;
+  background: url('./img/humanscale.jpg') rgb(0, 0, 0) no-repeat center;
   background-size: cover;
   cursor: pointer;
 }
