@@ -1,5 +1,4 @@
 // Stretch Goals
-// add conversion to kN 1kN to 224.80894lb
 // add staticLoad characteristicLoad = totalMass * 10 whichever is greater
 
 function characteristicLoad() {
